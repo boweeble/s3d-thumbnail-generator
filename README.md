@@ -13,7 +13,7 @@
 
    ![S3D screentshot](images/S3D-SS1.jpg "S3D Settings")
 
-4. Slice something executeable will run and insert your thumbnail into the gcode.  If you want to save a copy of the thumbnail as a JPEG you can do that by adding the `d=n` option.
+4. Slice something and this executeable take a screenshot of Simplify3D and insert the thumbnails into the gcode.  If you want to see a preview of the thumbnail as a JPEG you can do that by adding the `d=n` option.
 
 <br>![Small Thumbnail image](images/s3d_sm_cropped.jpg "Small Thumbnail image")
 <br>![Large Thumbnail image](images/s3d_lg_cropped.jpg "Large Thumbnail image")
