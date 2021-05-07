@@ -10,9 +10,10 @@
 
 5. Open Simplify3D and input the location of your script into the post-processing tab.
   `c:\S3D_Thumbs\S3D_Thumbs.exe f=[output_filepath]`
-   ![S3D screentshot](screenshots/S3D-SS1.jpg "S3D Settings")
+   ![S3D screentshot](images/S3D-SS1.jpg "S3D Settings")
 
 6. Slice something executeable will run and insert your thumbnail into the gcode.  If you want to save a copy of the thumbnail as a JPEG you can do that by adding the `d=n` option.
+![Thumbnail image](images/s3d_cropped.jpg "Thumbnail image")
 
 7. Upload to your gcode to OctoPrint or MainsailOS instance that has the PrusaThumbnail plugin installed.
    `https://plugins.octoprint.org/plugins/prusaslicerthumbnails/`
