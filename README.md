@@ -1,4 +1,4 @@
-### S3D Thumbnail Generator for PrusaThumbnail plugin on OctoPrint/MainsailOS and possibly others.
+# Simplify3D Thumbnail Generator for PrusaThumbnail plugin on OctoPrint/MainsailOS.
 
 #### Windows only currently
 
@@ -16,24 +16,23 @@
 4. Slice something executeable will run and insert your thumbnail into the gcode.  If you want to save a copy of the thumbnail as a JPEG you can do that by adding the `d=n` option.
 ![Thumbnail image](images/s3d_cropped.jpg "Thumbnail image")
 
-5. Upload to your gcode to OctoPrint or MainsailOS instance that has the PrusaThumbnail plugin installed.
-   OctoPrint: `https://plugins.octoprint.org/plugins/prusaslicerthumbnails/`
-   MainsailOS: `https://github.com/emtrax-ltd/Cura2MoonrakerPlugin`
+5. Upload to your gcode to OctoPrint or MainsailOS instance that has the appropriate PrusaThumbnail plugin installed.
+   <br/>OctoPrint: [https://plugins.octoprint.org/plugins/prusaslicerthumbnails/](https://plugins.octoprint.org/plugins/prusaslicerthumbnails/)
+   <br/>MainsailOS: [https://github.com/emtrax-ltd/Cura2MoonrakerPlugin](https://github.com/emtrax-ltd/Cura2MoonrakerPlugin)
 
 6. Enjoy!
-   ![OctoFarm working with the plugin](profitScreenshot.jpg "OctoFarm working with the plugin")
 
 ### Options:
-f = filename with full path
-x = x position to crop (optional - default is 532)
-y = y position to crop (optional - default is 118)
-w = width to crop (optional - default is 953)
-lw = large thumbnail width (optional - default is 400)
-lh = large thumbnail height (optional - default is 300)
-sw = small thumbnail width (optional - default is 32)
-sh = small thumbnail height (optional - default is 32)
-   height will scale automatically based on height
-d = [Y or N] delete temporary thumbnail (default is 'Y')
-   saved in same directory as gcode (s3d_cropped.jpg)
+<br/>f: filename with full path
+<br/>x: x position to crop (optional - default is 532)
+<br/>y: y position to crop (optional - default is 118)
+<br/>w: width to crop (optional - default is 953)
+<br/>lw: large thumbnail width (optional - default is 400)
+<br/>lh: large thumbnail height (optional - default is 300)
+<br/>sw: small thumbnail width (optional - default is 32)
+<br/>sh: small thumbnail height (optional - default is 32)
+<br/>   height will scale automatically based on height
+<br/>d: [Y or N] delete temporary thumbnail (default is 'Y')
+<br/>   saved in same directory as gcode (s3d_cropped.jpg)
    
 #### Notes: If you feel this has been useful to you feel free to buy me a beer via Venmo @boweeble
