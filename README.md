@@ -9,17 +9,17 @@
    `x=532 y=118 w=953 lw=400 lh=300 sw=32 sh=32`
    
    ### Options:
-   `f = filename with full path
-   x = x position to crop (optional - default is 532)
-   y = y position to crop (optional - default is 118)
-   w = width to crop (optional - default is 953)
-   lw = large thumbnail width (optional - default is 400)
-   lh = large thumbnail height (optional - default is 300)
-   sw = small thumbnail width (optional - default is 32)
-   sh = small thumbnail height (optional - default is 32)
-      height will scale automatically based on height
-   d = [Y or N] delete temporary thumbnail (default is 'Y')
-      saved in same directory as gcode (s3d_cropped.jpg)`
+   `f = filename with full path`
+   `x = x position to crop (optional - default is 532)`
+   `y = y position to crop (optional - default is 118)`
+   `w = width to crop (optional - default is 953)`
+   `lw = large thumbnail width (optional - default is 400)`
+   `lh = large thumbnail height (optional - default is 300)`
+   `sw = small thumbnail width (optional - default is 32)`
+   `sh = small thumbnail height (optional - default is 32)`
+      `height will scale automatically based on height`
+   `d = [Y or N] delete temporary thumbnail (default is 'Y')`
+      `saved in same directory as gcode (s3d_cropped.jpg)`
 
 3. Open Simplify3D and input the location of your script into the post-processing tab.
   `c:\S3D_Thumbs\S3D_Thumbs.exe f=[output_filepath]`
