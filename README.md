@@ -2,7 +2,7 @@
 
 #### Windows only
 
-1. Download and place the executeable on your system somewhere with permissions allowing S3D to access.
+1. Download and place the executeable on your system somewhere with permissions allowing Simplify3D to access.
 <br>   `git clone https://github.com/boweeble/s3d-thumbnail-generator.git`
 
 2. You will need to figure out where to crop on your screen size. If your resolution is 1920x1080 then it should already work fine with the default settings as long as Simplify3D is maximized. You'll have to play with these to figure out the best settings for your resolution otherwise.
@@ -15,7 +15,8 @@
 
 4. Slice something executeable will run and insert your thumbnail into the gcode.  If you want to save a copy of the thumbnail as a JPEG you can do that by adding the `d=n` option.
 
-![Thumbnail image](images/s3d_cropped.jpg "Thumbnail image")
+<br>![Small Thumbnail image](images/s3d_sm_cropped.jpg "Small Thumbnail image")
+<br>![Large Thumbnail image](images/s3d_lg_cropped.jpg "Large Thumbnail image")
 
 5. Upload to your gcode to OctoPrint or MainsailOS instance that has the appropriate PrusaThumbnail plugin installed.
    <br/>OctoPrint: [https://plugins.octoprint.org/plugins/prusaslicerthumbnails/](https://plugins.octoprint.org/plugins/prusaslicerthumbnails/)
