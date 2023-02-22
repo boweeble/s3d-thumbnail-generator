@@ -9,7 +9,7 @@
 <br>   `x=532 y=118 w=953 lw=400 lh=300 sw=32 sh=32`
    
 3. Open Simplify3D and input the location of your script into the post-processing tab.
-<br>  `c:\S3D_Thumbs\S3D_Thumbs.exe f=[output_filepath]`
+<br>  `c:\S3D_Thumbs\S3D_Thumbs.exe f="[output_filepath]"`
 
    ![S3D screentshot](images/S3D-SS1.jpg "S3D Settings")
 
