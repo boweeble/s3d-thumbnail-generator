@@ -11,7 +11,7 @@
 3. Open Simplify3D and input the location of your script into the post-processing tab.
 <br>  `c:\S3D_Thumbs\S3D_Thumbs.exe f="[output_filepath]"`
 
-   ![S3D screentshot](images/S3D-SS1.jpg "S3D Settings")
+   ![S3D screentshot](images/post_processing.PNG "S3D Settings")
 
 4. Slice something and this executeable take a screenshot of Simplify3D and insert the thumbnails into the gcode.  If you want to see a preview of the thumbnail as a JPEG you can do that by adding the `d=n` option.
 
