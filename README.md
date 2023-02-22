@@ -1,5 +1,7 @@
-# Simplify3D Thumbnail Generator for PrusaThumbnail plugin on OctoPrint/MainsailOS.
+# Simplify3D Thumbnail Generator for Klipper/OctoPrint/MainsailOS.
 
+ ![S3D screentshot](images/screenshot2.PNG "S3D Settings")
+ 
 #### Windows only
 
 1. Download and place the executeable on your system somewhere with permissions allowing Simplify3D to access.
